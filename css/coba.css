@@ -1,0 +1,40 @@
+.image1 {
+	background-image: url("../images/portfolio/1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	min-height: 800px;
+}
+.image2 {
+	background-image: url("../images/portfolio/2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	min-height: 800px;
+}
+.image3 {
+	background-image: url("../images/portfolio/3.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	min-height: 800px;
+}
+
+#p1 {
+	background-image: url("../images/portfolio/1.jpg");
+	background-position: center;
+	height: 100px;
+	width: 100px;
+}
+#p2 {
+	background-image: url("../images/portfolio/2.jpg");
+	background-position: center;
+	height: 100px;
+	width: 100px;
+}
+#p3 {
+	background-image: url("../images/portfolio/3.jpg");
+	background-position: center;
+	height: 100px;
+	width: 100px;
+}

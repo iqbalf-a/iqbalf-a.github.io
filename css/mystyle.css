@@ -1,0 +1,114 @@
+@media (max-width: 960px) {
+  .navbar {
+    position: sticky;
+    background-color: #688bfe;
+  }
+  .section1 {
+    min-height: 500px;
+    max-height: 500px;
+  }
+}
+/* scroll bar start*/
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #688bfe;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #777  ;
+}
+/* scroll bar end */
+
+.navbar {
+  position: fixed; /* Sticky/fixed navbar */
+  padding: 20px 20px; /* Large padding which will shrink on scroll (using JS) */
+  transition: 0.5s; /* Adds a transition effect when the padding is decreased */
+  width: 100%;
+  top: 0; /* At the top */
+  z-index: 99;
+    /* box-shadow: 0px 3px 10px 0px #888888; */
+}
+#logo {
+  transition: 0.5s;
+  height: 60px;
+}
+h2 span, span {
+  color: white;
+}
+.headline {
+  color: #f4a907;
+}
+.navbar-scrolldown{
+  box-shadow: 0px 0px 10px 0px #888888;
+  transition: all 0.15s linear;
+  background-color: #688bfe;
+}
+.nav-link{
+  color: #ddd;
+}
+.p-class {
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+}
+.outer-section {
+  overflow: hidden;
+}
+.section1 {
+  height: 100%;
+  min-height: 650px;
+  width: 100%;
+  background-attachment: scroll;
+  background-image: url("../images/bg-images/2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.5s ease;
+  /* background-color: white; */
+}
+.section1:hover {
+  transform: scale(1.1);
+}
+/* .section2{
+  background-color: #52e2d9;
+} */
+.section3 {
+  min-height: 500px;
+  background-color: #688bfe;
+  padding: 60px;
+}
+.image {
+  border: 2px solid #688bfe;
+  filter: blur(2px);
+
+
+}
+.image:hover {
+  filter: blur(0);
+  transform: scale(1);
+}
+.overlay-inner {
+	background-color: white;
+}
+hr {
+  background-color: white;
+  height: 1px;
+}
+.footer {
+  background-color: #688bfe;
+  min-height: 300px;
+}
+.footer-desc h3, .footer-desc p{
+  color: #ddd;
+}
